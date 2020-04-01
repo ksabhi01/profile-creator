@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Required Meta Tags-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Stylesheet-->
+	<link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Auditions</title>
+</head>
+<body>
+	<!--Slider-->
+	<main>
+
+		
+	</main>
+
+
+
+	<!--Form-->
+	<div>
+    <section id="form-section">
+	<h1 id="reachus">Reach Us</h1>	
+    <form id="forms">
+         
+        <fieldset>
+            <legend><span class="number">1</span> Basic information</legend>
+			<label for="fname">Name:</label>
+            <input type="text" id="fname" name="user_name" placeholder="First Name"  />
+			<input type="text" id="lname" name="user_name" placeholder="Last Name"  /><br>
+			<br>
+			<label for="email">Email:</label>
+            <input type="email" id="email" name="user_name" placeholder="abc@xyz.com" /><br>
+			<br>
+			<label for="date">Date of birth:</label>
+			<input type="date" id="date" name="date_of_birth" placeholder="Date of birth" /><br>
+			<br>
+			<label for="mob">Mob no:</label>
+			<input type="number" id="mob" name="mobile_num" placeholder="Mobile No."  /><br>
+			<br>
+			<label for="city">City:</label>
+			<input type="text" id="city" name="country" placeholder="City"  /><br>
+			<br>
+			<label for="gender">Gender:</label>
+			<input type="radio" class="gender" name="gender" value="male"> Male &nbsp;
+			<input type="radio" class="gender" name="gender" value="female"> Female&nbsp;
+			<input type="radio" class="gender" name="gender" value="other"> Other&nbsp;
+        </fieldset>
+		</form>
+		<form id="aboutu">
+        <fieldset>
+            <legend><span class="number">2</span> Tell Us about Yourself</legend>
+			<label for="bio">What Makes You different from other Candidates</label>
+            <textarea id="bio" name="user_bio" placeholder="Express yourself and Write only in 300 words"></textarea>
+			<label for="file">Upload Images</label>
+            <input type="file" id="file" accept="image/jpeg" placeholder="Choose Your File"  />
+         
+        </fieldset>      
+        
+    </form>
+    </section>
+	<button type="button" id="submit-button">Create Your Profile</button>
+	</div>
+	
+	
+	<div class="card" style="width: 18rem;" id="showcards">
+		<!-- <img src="" class="card-img-top" alt=""> -->
+		<div class="card-body">
+				<!-- <p class="card-text textContainer"></p> -->
+				<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+		</div>
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>
